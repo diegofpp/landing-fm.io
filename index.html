@@ -5,18 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Sunny</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+  </style>  
+
+  <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 <body>
-  About
-  Services
+  
+  <header class="hero">
+
+
+    <nav class="nav container">
+      <!-- <div class="elemento">elemento</div> -->
+      <img src="images/logo.svg" class="nav__logo" alt="">
+
+      <img src="images/icon-hamburger.svg" class="nav__hamburguer" alt="">
+    </nav>
+
+    <section class="hero__main container">
+      <h1 class="hero__tittle">We Are creatives
+      </h1>
+
+      <img src="images/icon-arrow-down.svg" alt="" class="hero__arrow">
+    </section>
+
+
+
+
+  </header>
+
+  <main>
+    <section class="services">
+      <div class="services__image service__image--1"></div>
+    
+      <div class="services__texts">
+        <h2 class="services__title">Transform your brand</h2>
+        <p class="services__paragraph"  >  We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#" class="services__cta">Learn More</a>
+      </div>
+    </section>
+  </main>
+  
+
+
+
+
+
+
+  About 
+  Services 
   Projects
   Contact
 
@@ -60,9 +105,6 @@
   Projects
   Contact
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
 </body>
 </html>
